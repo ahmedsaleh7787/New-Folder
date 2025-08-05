@@ -4,10 +4,10 @@ async function parseCV() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'X-API-Key': 'f4e425f4680742a42a825480e628a981'  // استبدل YOUR_API_KEY بالمفتاح الحقيقي
+      'X-API-Key': 'f4e425f4680742a42a825480e628a981'
     },
     body: JSON.stringify({
-      url: 'https://drive.google.com/uc?export=download&id=1-M0l1eA0NIEiQmRXHZgazglqI0iaSD4q' 
+      url: 'https://download1979.mediafire.com/605gh236prbgD5dB0vvY8lwaCBLqLw5PrzTk2Wr2_upPeqtFx5r8Y46_2S0teFwsZoCsLEJzwZsIddlMimXlsE7dUFYT8P6HYozrfbN4upvfyVs_Z8NPfR1HW_1GyFdX1SxQfa5naTGgM-PkkNpWC1SbpjWKJ949t_Iwug-qHfM/r4y1o03t81usx04/CV.pdf' 
     })
   });
 
